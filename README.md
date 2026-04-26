@@ -12,3 +12,5 @@
 Small patch for early Rec Room builds to allow DebugCameraControl ("screen mode") inputs. Useful for trying private server updates without loading fully into VR. Currently uses obfuscated names, meaning this patch will only work on `20170209_EA` and newer.
 
 Tested on `20171002_TRAILER`, with BepInEx 5.4.23.5.
+
+This project is licensed under the [AGPLv3 License](./LICENSE)
