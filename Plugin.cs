@@ -26,14 +26,13 @@ public class Patch_VRDevice_isPresent
     }
 }
 
-//Always return debug input from ControllerIO.Update by calling LMAGOHCBOGK() directly and skipping the original Update logic.
-[HarmonyPatch(typeof(ControllerIO), "Update")]
-public class Patch_ControllerIO_Update
+//Always return ControllerIO.DNOKPKDGGKB.Debug when OLCOCPIALFA is called
+[HarmonyPatch(typeof(ControllerIO), nameof(ControllerIO.OLCOCPIALFA), MethodType.Getter)]
+public class Patch_ControllerIO_Debug
 {
-    static bool Prefix(ControllerIO __instance)
+    static bool Prefix(ref ControllerIO.DNOKPKDGGKB __result)
     {
-        AccessTools.Method(typeof(ControllerIO), "LMAGOHCBOGK")
-                    .Invoke(__instance, null);
+        __result = ControllerIO.DNOKPKDGGKB.Debug;
         return false;
     }
 }
