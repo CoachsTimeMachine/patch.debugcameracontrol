@@ -9,7 +9,7 @@
 
 ---
 
-Small patch for early Rec Room builds to allow DebugCameraControl ("screen mode") inputs. Useful for trying private server updates without loading into VR. 
+Small patch for pre-Screen Mode Rec Room builds to enable DebugCameraControl ("screen mode"). Useful for trying private server updates without loading into VR. 
 
 Currently targets obfuscated classes, meaning this patch will only work on `20170209_EA` and newer.
 
