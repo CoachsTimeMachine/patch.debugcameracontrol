@@ -3,7 +3,7 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.VR;
 
-[BepInPlugin("com.ctm.patchdebugcameracontrol", "patch.DebugCameraControl", "1.0.0")]
+[BepInPlugin("com.ctm.patchdebugcameracontrol", "patch.DebugCameraControl", "1.0.1")]
 public class VRDebugModPlugin : BaseUnityPlugin
 {
     private void Awake()
