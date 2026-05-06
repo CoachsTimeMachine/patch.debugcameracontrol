@@ -2,6 +2,8 @@
 <img src="https://avatars.githubusercontent.com/u/274413706" width="128" height="128">
 <h1>Coach's Time Machine - DebugCameraControl [patch]</h1>
 
+**This patch is for BepInEx only.**
+
 [Please check this Readme for information about CTM, including a compatibility list.](https://github.com/CoachsTimeMachine)
 
 [Download precompiled binaries here.](https://github.com/CoachsTimeMachine/patch.debugcameracontrol/releases)
